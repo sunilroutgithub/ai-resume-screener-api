@@ -1,12 +1,24 @@
 # 🤖 AI Resume Screener API
 
 > **ATS screener that embeds JDs + resumes in ChromaDB, ranks by semantic similarity with LLM reasoning, and provides configurable rubrics – all via a REST API.**
-👉 **[https://ai-resume-screener-api-rtq5.onrender.com/docs](https://ai-resume-screener-api-rtq5.onrender.com/docs)**
+
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.138.1-009688?logo=fastapi)](https://fastapi.tiangolo.com)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-0.5.3-yellow)](https://www.trychroma.com)
 [![Docker](https://img.shields.io/badge/Docker-✓-2496ED?logo=docker)](https://www.docker.com)
 [![Groq](https://img.shields.io/badge/LLM-Groq-FF6B00)](https://groq.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-✓-brightgreen)](https://ai-resume-screener-api-rtq5.onrender.com/docs)
+
+---
+
+## 🚀 **Live Demo**
+
+**Try it now!** The API is deployed and running at:  
+👉 **[https://ai-resume-screener-api-rtq5.onrender.com/docs](https://ai-resume-screener-api-rtq5.onrender.com/docs)**
+
+- **Upload a resume** (PDF/DOCX)
+- **Screen against a job description** with custom rubric
+- **Get detailed AI evaluation** with score, strengths, gaps, and interview questions
 
 ---
 
@@ -81,7 +93,7 @@ This project is built to be **free, scalable, and recruiter-friendly**. Perfect 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/ai-resume-screener-api.git
+git clone https://github.com/sunilroutgithub/ai-resume-screener-api.git
 cd ai-resume-screener-api
 
 # 2. Create and activate virtual environment
