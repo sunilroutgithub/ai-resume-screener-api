@@ -25,7 +25,7 @@ class ResumeVectorStore:
         
         # Initialize the embedding model
         logger.info("Loading sentence-transformers model...")
-        self.embedding_model = SentenceTransformer('all-MiniLM-L3-v2')
+        self.embedding_model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
         logger.info("Model loaded successfully!")
         
         # Initialize ChromaDB client - using older API
