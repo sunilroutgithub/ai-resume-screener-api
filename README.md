@@ -1,7 +1,7 @@
 # 🤖 AI Resume Screener API
 
 > **ATS screener that embeds JDs + resumes in ChromaDB, ranks by semantic similarity with LLM reasoning, and provides configurable rubrics – all via a REST API.**
-
+👉 **[https://ai-resume-screener-api-rtq5.onrender.com/docs](https://ai-resume-screener-api-rtq5.onrender.com/docs)**
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.138.1-009688?logo=fastapi)](https://fastapi.tiangolo.com)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-0.5.3-yellow)](https://www.trychroma.com)
 [![Docker](https://img.shields.io/badge/Docker-✓-2496ED?logo=docker)](https://www.docker.com)
