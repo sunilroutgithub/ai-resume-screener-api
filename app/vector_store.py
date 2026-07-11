@@ -2,6 +2,13 @@
 Vector store for resume embeddings using sentence-transformers and ChromaDB
 """
 import os
+
+# --- Memory optimizations ---
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+import torch
+torch.set_num_threads(1)   # reduces PyTorch memory usage
+# --------------------------
+
 import uuid
 from typing import List, Dict, Any, Optional
 import chromadb
